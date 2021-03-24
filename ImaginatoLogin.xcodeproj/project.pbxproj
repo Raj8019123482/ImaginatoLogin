@@ -3,10 +3,27 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0935175CB9C820F010983DDA /* libPods-ImaginatoLogin.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 450FBDD20C461B8BB46A981F /* libPods-ImaginatoLogin.a */; };
+		15510F7160FB43726C248F91 /* libPods-ImaginatoLoginTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A73D2530005216148FB666 /* libPods-ImaginatoLoginTests.a */; };
+		32B1665D83E90B28650107FD /* libPods-ImaginatoLogin-ImaginatoLoginUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F286300CBF8E0314F311114E /* libPods-ImaginatoLogin-ImaginatoLoginUITests.a */; };
+		8B0AC967260B40D3001A5BA8 /* ErrorResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC966260B40D3001A5BA8 /* ErrorResult.swift */; };
+		8B0AC96F260B4100001A5BA8 /* ParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC96E260B4100001A5BA8 /* ParserHelper.swift */; };
+		8B0AC974260B412D001A5BA8 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC973260B412D001A5BA8 /* Reachability.swift */; };
+		8B0AC979260B4154001A5BA8 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC978260B4154001A5BA8 /* RequestBuilder.swift */; };
+		8B0AC97E260B4179001A5BA8 /* RequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC97D260B4179001A5BA8 /* RequestHandler.swift */; };
+		8B0AC983260B419C001A5BA8 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC982260B419C001A5BA8 /* Response.swift */; };
+		8B0AC988260B41C1001A5BA8 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC987260B41C1001A5BA8 /* Result.swift */; };
+		8B0AC98E260B41FD001A5BA8 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC98D260B41FD001A5BA8 /* WebService.swift */; };
+		8B0AC996260B4228001A5BA8 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC995260B4228001A5BA8 /* ApiConstants.swift */; };
+		8B0AC9AB260B56D5001A5BA8 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0AC9AA260B56D5001A5BA8 /* UserModel.swift */; };
+		8B2D1331260B2C9700B87E5A /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D1330260B2C9700B87E5A /* ActivityIndicator.swift */; };
+		8B2D1339260B2D5D00B87E5A /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D1338260B2D5D00B87E5A /* UIViewController.swift */; };
+		8B2D133F260B2EC400B87E5A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D133E260B2EC400B87E5A /* LoginViewModel.swift */; };
+		8B2D1345260B2F1C00B87E5A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B2D1344260B2F1C00B87E5A /* User.swift */; };
 		8B3AABB2260B05D000EAD555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3AABB1260B05D000EAD555 /* AppDelegate.swift */; };
 		8B3AABB4260B05D000EAD555 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3AABB3260B05D000EAD555 /* SceneDelegate.swift */; };
 		8B3AABB6260B05D000EAD555 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3AABB5260B05D000EAD555 /* ViewController.swift */; };
@@ -35,6 +52,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3167F13F9D20F7454A06779E /* Pods-ImaginatoLoginTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImaginatoLoginTests.release.xcconfig"; path = "Target Support Files/Pods-ImaginatoLoginTests/Pods-ImaginatoLoginTests.release.xcconfig"; sourceTree = "<group>"; };
+		374BAD62FF8499C689DBCFFB /* Pods-ImaginatoLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImaginatoLogin.release.xcconfig"; path = "Target Support Files/Pods-ImaginatoLogin/Pods-ImaginatoLogin.release.xcconfig"; sourceTree = "<group>"; };
+		450FBDD20C461B8BB46A981F /* libPods-ImaginatoLogin.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImaginatoLogin.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF21CE82D1F613F7B0BA962 /* Pods-ImaginatoLoginTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImaginatoLoginTests.debug.xcconfig"; path = "Target Support Files/Pods-ImaginatoLoginTests/Pods-ImaginatoLoginTests.debug.xcconfig"; sourceTree = "<group>"; };
+		73DB2DB5E59DB59297695242 /* Pods-ImaginatoLogin-ImaginatoLoginUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImaginatoLogin-ImaginatoLoginUITests.release.xcconfig"; path = "Target Support Files/Pods-ImaginatoLogin-ImaginatoLoginUITests/Pods-ImaginatoLogin-ImaginatoLoginUITests.release.xcconfig"; sourceTree = "<group>"; };
+		774BB1B2330576CEE79A121F /* Pods-ImaginatoLogin-ImaginatoLoginUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImaginatoLogin-ImaginatoLoginUITests.debug.xcconfig"; path = "Target Support Files/Pods-ImaginatoLogin-ImaginatoLoginUITests/Pods-ImaginatoLogin-ImaginatoLoginUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		79A73D2530005216148FB666 /* libPods-ImaginatoLoginTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImaginatoLoginTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B0AC966260B40D3001A5BA8 /* ErrorResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorResult.swift; sourceTree = "<group>"; };
+		8B0AC96E260B4100001A5BA8 /* ParserHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParserHelper.swift; sourceTree = "<group>"; };
+		8B0AC973260B412D001A5BA8 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8B0AC978260B4154001A5BA8 /* RequestBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
+		8B0AC97D260B4179001A5BA8 /* RequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHandler.swift; sourceTree = "<group>"; };
+		8B0AC982260B419C001A5BA8 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		8B0AC987260B41C1001A5BA8 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		8B0AC98D260B41FD001A5BA8 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		8B0AC995260B4228001A5BA8 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		8B0AC9AA260B56D5001A5BA8 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		8B2D1330260B2C9700B87E5A /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		8B2D1338260B2D5D00B87E5A /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		8B2D133E260B2EC400B87E5A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		8B2D1344260B2F1C00B87E5A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8B3AABAE260B05D000EAD555 /* ImaginatoLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImaginatoLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3AABB1260B05D000EAD555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8B3AABB3260B05D000EAD555 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +87,8 @@
 		8B3AABCF260B05D600EAD555 /* ImaginatoLoginUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImaginatoLoginUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B3AABD3260B05D600EAD555 /* ImaginatoLoginUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImaginatoLoginUITests.swift; sourceTree = "<group>"; };
 		8B3AABD5260B05D600EAD555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D86242EF8679C9FE313DC0F /* Pods-ImaginatoLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImaginatoLogin.debug.xcconfig"; path = "Target Support Files/Pods-ImaginatoLogin/Pods-ImaginatoLogin.debug.xcconfig"; sourceTree = "<group>"; };
+		F286300CBF8E0314F311114E /* libPods-ImaginatoLogin-ImaginatoLoginUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ImaginatoLogin-ImaginatoLoginUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0935175CB9C820F010983DDA /* libPods-ImaginatoLogin.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15510F7160FB43726C248F91 /* libPods-ImaginatoLoginTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +112,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B1665D83E90B28650107FD /* libPods-ImaginatoLogin-ImaginatoLoginUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B0AC965260B40AC001A5BA8 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC966260B40D3001A5BA8 /* ErrorResult.swift */,
+				8B0AC96E260B4100001A5BA8 /* ParserHelper.swift */,
+				8B0AC973260B412D001A5BA8 /* Reachability.swift */,
+				8B0AC978260B4154001A5BA8 /* RequestBuilder.swift */,
+				8B0AC97D260B4179001A5BA8 /* RequestHandler.swift */,
+				8B0AC982260B419C001A5BA8 /* Response.swift */,
+				8B0AC987260B41C1001A5BA8 /* Result.swift */,
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		8B0AC98C260B41D8001A5BA8 /* Webservice */ = {
+			isa = PBXGroup;
+			children = (
+				8B0AC98D260B41FD001A5BA8 /* WebService.swift */,
+				8B0AC995260B4228001A5BA8 /* ApiConstants.swift */,
+			);
+			path = Webservice;
+			sourceTree = "<group>";
+		};
+		8B2D132F260B2C6A00B87E5A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D1330260B2C9700B87E5A /* ActivityIndicator.swift */,
+				8B2D1338260B2D5D00B87E5A /* UIViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		8B2D133D260B2E9400B87E5A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D133E260B2EC400B87E5A /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8B2D1343260B2F0E00B87E5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8B2D1344260B2F1C00B87E5A /* User.swift */,
+				8B0AC9AA260B56D5001A5BA8 /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		8B3AABA5260B05D000EAD555 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +175,8 @@
 				8B3AABC7260B05D600EAD555 /* ImaginatoLoginTests */,
 				8B3AABD2260B05D600EAD555 /* ImaginatoLoginUITests */,
 				8B3AABAF260B05D000EAD555 /* Products */,
+				BF16ED893F5B545E946879BC /* Pods */,
+				923F1E336A787B44E4E0B2A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +193,11 @@
 		8B3AABB0260B05D000EAD555 /* ImaginatoLogin */ = {
 			isa = PBXGroup;
 			children = (
+				8B0AC98C260B41D8001A5BA8 /* Webservice */,
+				8B0AC965260B40AC001A5BA8 /* Network Manager */,
+				8B2D1343260B2F0E00B87E5A /* Model */,
+				8B2D133D260B2E9400B87E5A /* ViewModel */,
+				8B2D132F260B2C6A00B87E5A /* Extensions */,
 				8B3AABB1260B05D000EAD555 /* AppDelegate.swift */,
 				8B3AABB3260B05D000EAD555 /* SceneDelegate.swift */,
 				8B3AABB5260B05D000EAD555 /* ViewController.swift */,
@@ -128,6 +227,29 @@
 			path = ImaginatoLoginUITests;
 			sourceTree = "<group>";
 		};
+		923F1E336A787B44E4E0B2A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				450FBDD20C461B8BB46A981F /* libPods-ImaginatoLogin.a */,
+				F286300CBF8E0314F311114E /* libPods-ImaginatoLogin-ImaginatoLoginUITests.a */,
+				79A73D2530005216148FB666 /* libPods-ImaginatoLoginTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF16ED893F5B545E946879BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D86242EF8679C9FE313DC0F /* Pods-ImaginatoLogin.debug.xcconfig */,
+				374BAD62FF8499C689DBCFFB /* Pods-ImaginatoLogin.release.xcconfig */,
+				774BB1B2330576CEE79A121F /* Pods-ImaginatoLogin-ImaginatoLoginUITests.debug.xcconfig */,
+				73DB2DB5E59DB59297695242 /* Pods-ImaginatoLogin-ImaginatoLoginUITests.release.xcconfig */,
+				6AF21CE82D1F613F7B0BA962 /* Pods-ImaginatoLoginTests.debug.xcconfig */,
+				3167F13F9D20F7454A06779E /* Pods-ImaginatoLoginTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +257,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3AABD8260B05D600EAD555 /* Build configuration list for PBXNativeTarget "ImaginatoLogin" */;
 			buildPhases = (
+				F91D45705AB38B584919F880 /* [CP] Check Pods Manifest.lock */,
 				8B3AABAA260B05D000EAD555 /* Sources */,
 				8B3AABAB260B05D000EAD555 /* Frameworks */,
 				8B3AABAC260B05D000EAD555 /* Resources */,
+				901D5E70169510DFE4C63C45 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +276,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3AABDB260B05D600EAD555 /* Build configuration list for PBXNativeTarget "ImaginatoLoginTests" */;
 			buildPhases = (
+				5F61BB81355AC6F58AC1E7F1 /* [CP] Check Pods Manifest.lock */,
 				8B3AABC0260B05D500EAD555 /* Sources */,
 				8B3AABC1260B05D500EAD555 /* Frameworks */,
 				8B3AABC2260B05D500EAD555 /* Resources */,
@@ -170,9 +295,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8B3AABDE260B05D600EAD555 /* Build configuration list for PBXNativeTarget "ImaginatoLoginUITests" */;
 			buildPhases = (
+				B04FDB24709703FE46B7E84B /* [CP] Check Pods Manifest.lock */,
 				8B3AABCB260B05D600EAD555 /* Sources */,
 				8B3AABCC260B05D600EAD555 /* Frameworks */,
 				8B3AABCD260B05D600EAD555 /* Resources */,
+				57A5C7F1192B98D7E795CEF2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,14 +380,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		57A5C7F1192B98D7E795CEF2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImaginatoLogin-ImaginatoLoginUITests/Pods-ImaginatoLogin-ImaginatoLoginUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImaginatoLogin-ImaginatoLoginUITests/Pods-ImaginatoLogin-ImaginatoLoginUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImaginatoLogin-ImaginatoLoginUITests/Pods-ImaginatoLogin-ImaginatoLoginUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F61BB81355AC6F58AC1E7F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImaginatoLoginTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		901D5E70169510DFE4C63C45 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImaginatoLogin/Pods-ImaginatoLogin-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImaginatoLogin/Pods-ImaginatoLogin-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImaginatoLogin/Pods-ImaginatoLogin-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B04FDB24709703FE46B7E84B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImaginatoLogin-ImaginatoLoginUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91D45705AB38B584919F880 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImaginatoLogin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8B3AABAA260B05D000EAD555 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B2D1331260B2C9700B87E5A /* ActivityIndicator.swift in Sources */,
 				8B3AABB6260B05D000EAD555 /* ViewController.swift in Sources */,
+				8B0AC97E260B4179001A5BA8 /* RequestHandler.swift in Sources */,
+				8B0AC98E260B41FD001A5BA8 /* WebService.swift in Sources */,
+				8B0AC996260B4228001A5BA8 /* ApiConstants.swift in Sources */,
+				8B0AC96F260B4100001A5BA8 /* ParserHelper.swift in Sources */,
+				8B0AC988260B41C1001A5BA8 /* Result.swift in Sources */,
+				8B2D133F260B2EC400B87E5A /* LoginViewModel.swift in Sources */,
+				8B0AC9AB260B56D5001A5BA8 /* UserModel.swift in Sources */,
 				8B3AABB2260B05D000EAD555 /* AppDelegate.swift in Sources */,
+				8B0AC983260B419C001A5BA8 /* Response.swift in Sources */,
 				8B3AABB4260B05D000EAD555 /* SceneDelegate.swift in Sources */,
+				8B0AC967260B40D3001A5BA8 /* ErrorResult.swift in Sources */,
+				8B0AC979260B4154001A5BA8 /* RequestBuilder.swift in Sources */,
+				8B2D1339260B2D5D00B87E5A /* UIViewController.swift in Sources */,
+				8B0AC974260B412D001A5BA8 /* Reachability.swift in Sources */,
+				8B2D1345260B2F1C00B87E5A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +677,7 @@
 		};
 		8B3AABD9260B05D600EAD555 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D86242EF8679C9FE313DC0F /* Pods-ImaginatoLogin.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +696,7 @@
 		};
 		8B3AABDA260B05D600EAD555 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 374BAD62FF8499C689DBCFFB /* Pods-ImaginatoLogin.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +715,7 @@
 		};
 		8B3AABDC260B05D600EAD555 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6AF21CE82D1F613F7B0BA962 /* Pods-ImaginatoLoginTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +737,7 @@
 		};
 		8B3AABDD260B05D600EAD555 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3167F13F9D20F7454A06779E /* Pods-ImaginatoLoginTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +759,7 @@
 		};
 		8B3AABDF260B05D600EAD555 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 774BB1B2330576CEE79A121F /* Pods-ImaginatoLogin-ImaginatoLoginUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +779,7 @@
 		};
 		8B3AABE0260B05D600EAD555 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73DB2DB5E59DB59297695242 /* Pods-ImaginatoLogin-ImaginatoLoginUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

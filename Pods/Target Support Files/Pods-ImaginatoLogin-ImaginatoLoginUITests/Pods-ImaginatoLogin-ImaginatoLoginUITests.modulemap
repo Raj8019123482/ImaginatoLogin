@@ -1,0 +1,6 @@
+module Pods_ImaginatoLogin_ImaginatoLoginUITests {
+  umbrella header "Pods-ImaginatoLogin-ImaginatoLoginUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+module Pods_ImaginatoLogin {
+  umbrella header "Pods-ImaginatoLogin-umbrella.h"
+
+  export *
+  module * { export * }
+}
